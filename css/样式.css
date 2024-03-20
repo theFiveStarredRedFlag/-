@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.图片容器 {
+  background-color: rgb(211, 211, 211);
+  height: 200px;
+  padding-top: 50px;
+  background-image: url("/img/niivu-abstractpack12.jpg");
+  background-size: cover;
+}
+
+.图片 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  box-shadow: 2px 2px 6px 3px rgba(0, 0, 0, 0.3);
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.内容 {
+  max-width: 700px;
+  /* background-color: rgb(190, 255, 233); */
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.信息 {
+  background-color: darkgray;
+  text-align: center;
+  padding: 10px;
+}
+
+.左侧,
+.右侧 {
+  margin: 20px 0;
+  width: 195px;
+  height: 500px;
+  background-color: rgb(244, 255, 251);
+  float: left;
+  padding: 10px;
+  border: 2px dashed rgb(255, 0, 149);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px 0 rgb(0, 223, 211, 0.5);
+}
+.右侧 {
+  margin-left: 5px;
+  width: 480px;
+}
